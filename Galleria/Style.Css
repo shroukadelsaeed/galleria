@@ -1,0 +1,68 @@
+body {
+    background-image: url("images/1.jpeg");
+    
+   background-repeat: repeat-x;
+   background-color: rgb(182, 178, 128);
+   
+}
+h2{ text-align: center;
+    font-size: 80px;
+     text-decoration: wavy;
+    }
+h3{
+    color: rgb(49, 61, 36);
+    font-style: oblique;
+}
+div.words{
+    text-align: left;
+     font-size: 60px;
+      color:rgb(255, 255, 255);
+    }
+div.more{ 
+    text-align: center; 
+    font-size: 40px; 
+    color: rgb(62, 73, 43);
+}
+div.gallery{ 
+    margin: 10px; 
+    border: 3px rgb(86, 97, 91); 
+    float: right ;
+     width: 300px; 
+     }
+div.gallery:hover {
+     transition: 1s;
+      border: 5px rgb(25, 44, 25); 
+      padding: 5px;
+      position: static; 
+    }
+div.gallery img  {
+     width: 100%; 
+     height: 90%; 
+     transition-duration: 5px; 
+    }
+form{
+    text-align: center; 
+    font-size: 50px;
+  
+}
+#button{
+    border-radius: 100%;
+}
+#more {
+    font-size: 50px;
+    color: rgb(5, 14, 7);}
+#Greeting { 
+    font-size: 40px;
+     color: rgb(255, 255, 255);
+    }
+.rr{
+    padding-right: 40%; 
+    padding-left: 30%; 
+ }
+ #Days{
+     font-size: xx-large;
+     text-align: center;
+     font-style: oblique;
+     color: gold;
+ }
+ 
